@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diablo Tea Lunch Special</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f3f3;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .menu, .form-box {
+            background: white;
+            padding: 20px;
+            width: 350px;
+            border: 2px solid #ccc;
+        }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            margin-top: 15px;
+        }
+
+        .price {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 6px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: black;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #444;
+        }
+    </style>
+</head>
+<body>
+
+<h1>HOMEWORK #4</h1>
+
+<div class="container">
+
+    <!-- LEFT MENU -->
+    <div class="menu">
+        <h1>Lunch Special</h1>
+        <p class="price">Monday–Friday 11 AM – 3 PM<br>$9.99 + tax</p>
+
+        <h3>Sandwich</h3>
+        <ul>
+            <li>Mon: Tomato Mozzarella or Chicken Salad</li>
+            <li>Tue: Greek Salad Wrap or Tofu Wrap</li>
+            <li>Wed: Red Pepper Hummus Wrap or Cheeseburger</li>
+            <li>Thu: Carrot-Ginger Hummus Wrap or Egg Salad</li>
+            <li>Fri: Dado Wrap or Tuna Salad</li>
+        </ul>
+
+        <h3>Snack</h3>
+        <p>Apple, Banana, Orange, or Potato Chips</p>
+
+        <h3>Regular Size Drink</h3>
+        <ul>
+            <li>Coffee or Iced Coffee</li>
+            <li>Water or Lemonade</li>
+            <li>Beer (Domestic or Imported)</li>
+            <li>Organic Peppermint Tea </li>
+            <li>Hot or Iced Kosum Black Tea</li>
+        </ul>
+
+        <p style="text-align:center; font-weight:bold;">No substitutions</p>
+    </div>
+
+    <!-- RIGHT ORDER FORM -->
+    <div class="form-box">
+        <h2>Diablo Tea Lunch Special</h2>
+
+        <form>
+            <label>Name</label>
+            <input type="text">
+
+            <label>Email</label>
+            <input type="email">
+
+            <label>Sandwich Choice</label>
+            <select>
+                <option>Tomato Mozzarella</option>
+                <option>Chicken Salad</option>
+                <option>Greek Salad Wrap</option>
+                <option>Tofu Wrap</option>
+                <option>Red Pepper Hummus Wrap</option>
+                <option>Cheeseburger</option>
+                <option>Carrot-Ginger Hummus Wrap</option>
+                <option>Dado Wrap</option>
+                <option>Egg Salad</option>
+                <option>Tuna Salad</option>
+            </select>
+
+            <label>Snack</label>
+            <select>
+                <option>Apple</option>
+                <option>Banana</option>
+                <option>Orange</option>
+                <option>Potato Chips</option>
+            </select>
+
+            <label>Drink</label>
+            <select>
+                <option>Coffee</option>
+                <option>Iced Coffee</option>
+                <option>Water</option>
+                <option>Lemonade</option>
+                <option>Beer</option>
+                <option>Peppermint Tea</option>
+                <option>Black Tea</option>
+            </select>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
